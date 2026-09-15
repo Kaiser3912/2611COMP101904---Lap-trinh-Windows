@@ -151,7 +151,7 @@
             cboKhoa.FormattingEnabled = true;
             cboKhoa.Location = new Point(145, 322);
             cboKhoa.Name = "cboKhoa";
-            cboKhoa.Size = new Size(151, 28);
+            cboKhoa.Size = new Size(295, 27);
             cboKhoa.TabIndex = 11;
             // 
             // btnHienThi

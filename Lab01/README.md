@@ -75,8 +75,3 @@ Hệ thống áp dụng logic kiểm tra tuần tự qua các bước:
 
 ---
 
-## 🚀 Hướng Dẫn Cài Đặt & Chạy
-
-### 1. Di chuyển vào thư mục dự án
-```bash
-cd "2611COMP101904-Lap-trinh-Windows\Lab01\Lab01_Ungdungthongtincanhan"

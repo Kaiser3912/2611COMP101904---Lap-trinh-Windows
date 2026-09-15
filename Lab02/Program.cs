@@ -24,10 +24,9 @@ namespace QuanLyMangSoNguyen
                 Console.WriteLine("7. Tìm kiếm một giá trị");
                 Console.WriteLine("0. Thoát chương trình");
                 Console.Write("Mời chọn chức năng (0-7): ");
-
                 string? choice = Console.ReadLine();
                 Console.WriteLine();
-
+                
                 switch (choice)
                 {
                     case "1":
@@ -106,7 +105,6 @@ namespace QuanLyMangSoNguyen
         static void XuatMang()
         {
             if (KtraMangRong()) return;
-
             Console.Write("Các phần tử trong mảng: ");
             for (int i = 0; i < arr!.Length; i++)
             {
@@ -119,7 +117,6 @@ namespace QuanLyMangSoNguyen
         static void Tong()
         {
             if (KtraMangRong()) return;
-
             long tong = 0;
             foreach (int x in arr!)
             {
@@ -132,16 +129,13 @@ namespace QuanLyMangSoNguyen
         static void TimMaxMin()
         {
             if (KtraMangRong()) return;
-
             int max = arr![0];
             int min = arr[0];
-
             for (int i = 1; i < arr.Length; i++)
             {
                 if (arr[i] > max) max = arr[i];
                 if (arr[i] < min) min = arr[i];
             }
-
             Console.WriteLine($"Giá trị lớn nhất (Max): {max}");
             Console.WriteLine($"Giá trị nhỏ nhất (Min): {min}");
         }
@@ -150,10 +144,8 @@ namespace QuanLyMangSoNguyen
         static void DemChanLe()
         {
             if (KtraMangRong()) return;
-
             int countChan = 0;
             int countLe = 0;
-
             foreach (int x in arr!)
             {
                 if (x % 2 == 0)
@@ -161,7 +153,6 @@ namespace QuanLyMangSoNguyen
                 else
                     countLe++;
             }
-
             Console.WriteLine($"Số lượng số chẵn: {countChan}");
             Console.WriteLine($"Số lượng số lẻ: {countLe}");
         }
@@ -170,7 +161,6 @@ namespace QuanLyMangSoNguyen
         static void SapXepTangDan()
         {
             if (KtraMangRong()) return;
-
             Array.Sort(arr!);
             Console.WriteLine("Mảng đã được sắp xếp tăng dần thành công!");
             XuatMang();
@@ -198,7 +188,6 @@ namespace QuanLyMangSoNguyen
                     timThay = true;
                 }
             }
-
             if (!timThay)
             {
                 Console.WriteLine("Không tìm thấy trong mảng.");

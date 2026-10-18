@@ -11,7 +11,6 @@ namespace Lab09
     {
         public FrmStudentCard()
         {
-            // Gọi khởi tạo các Control từ file .Designer.cs
             InitializeComponent();
             InitializeData();
         }
@@ -27,7 +26,6 @@ namespace Lab09
             if (cboGender.Items.Count > 0) cboGender.SelectedIndex = 0;
         }
 
-        // Sự kiện khi nhập liệu -> Vẽ lại Preview
         private void InputChanged(object sender, EventArgs e)
         {
             pnlCardPreview.Invalidate();
@@ -43,7 +41,6 @@ namespace Lab09
             {
                 try
                 {
-                    // Copy ra Bitmap để không khóa file gốc
                     using Image temp = Image.FromFile(dlg.FileName);
                     Image copy = new Bitmap(temp);
                     picAvatar.Image?.Dispose();
@@ -109,9 +106,7 @@ namespace Lab09
             txtStudentId.Focus();
         }
 
-        // ==========================================
-        // PHẦN VẼ THẺ (DÙNG CHUNG CHO PREVIEW VÀ IN)
-        // ==========================================
+        // PHẦN VẼ THẺ 
         private void pnlCardPreview_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
@@ -176,9 +171,7 @@ namespace Lab09
             g.DrawImage(image, new Rectangle(x, y, width, height));
         }
 
-        // ==========================================
-        // PHẦN XỬ LÝ IN ẤN
-        // ==========================================
+        // PHẦN XỬ LÝ IN Ấn
         private void btnPreviewPrint_Click(object sender, EventArgs e)
         {
             if (!ValidateInput()) return;

@@ -7,8 +7,8 @@
 ---
 
 ## 1. Mục tiêu đã hoàn thành
-- Thiết kế thành công giao diện `FrmMonHoc` với đầy đủ các control yêu cầu.
-- Khởi tạo cơ sở dữ liệu `EduManagerDB` và bảng `MONHOC` bằng script SQL.
+- Thiết kế thành công giao diện với đầy đủ các control yêu cầu.
+- Khởi tạo cơ sở dữ liệu và bảng `MONHOC` bằng script SQL.
 - Cấu hình thành công `DbContext` và Entity ánh xạ bằng Entity Framework Core 8.x.
 - Xây dựng mã nguồn tuân thủ triệt để mô hình 3 lớp: **GUI, BLL, DAL**.
 - Hoàn thiện các chức năng CRUD và tích hợp Validation logic từ lớp BLL.
@@ -19,27 +19,28 @@
 
 ### 2.1. Giao diện chính và Load dữ liệu
 Khi vừa mở Form, hệ thống sẽ tự động load danh sách môn học từ cơ sở dữ liệu lên DataGridView.
-> ![Giao diện chính hiển thị danh sách môn học](chen_link_anh_giao_dien_chinh_vao_day.jpg)
+<img width="597" height="736" alt="image" src="https://github.com/user-attachments/assets/4f240fac-3c3d-45c0-8238-f0e804fd911d" />
 
 ### 2.2. Thêm môn học
 Người dùng nhập thông tin và nhấn "Thêm". Dữ liệu sẽ được kiểm tra hợp lệ, sau đó lưu xuống CSDL và cập nhật lại lưới hiển thị.
-> ![Chức năng Thêm môn học](chen_link_anh_them_mon_hoc_vao_day.jpg)
+<img width="596" height="734" alt="image" src="https://github.com/user-attachments/assets/601351a8-afc7-450c-a2d2-0da05b17b3de" />
 
 ### 2.3. Cập nhật (Sửa) thông tin
 Click chọn một dòng trên DataGridView, dữ liệu sẽ được đưa lên các ô nhập liệu. Người dùng sửa thông tin và nhấn "Sửa".
-> ![Chức năng Sửa môn học](chen_link_anh_sua_mon_hoc_vao_day.jpg)
+<img width="620" height="741" alt="image" src="https://github.com/user-attachments/assets/b1702856-d942-4d57-ae4f-eec588d1105e" />
 
 ### 2.4. Xóa môn học
 Xác nhận xóa môn học đang được chọn thông qua một MessageBox an toàn.
-> ![Xác nhận Xóa môn học](chen_link_anh_xoa_mon_hoc_vao_day.jpg)
+<img width="595" height="739" alt="image" src="https://github.com/user-attachments/assets/65e81aee-02ac-4f62-b11c-0e5be5bd20ed" />
 
 ### 2.5. Tìm kiếm
 Người dùng có thể tìm kiếm nhanh môn học theo Mã môn học hoặc Tên môn học.
-> ![Chức năng Tìm kiếm môn học](chen_link_anh_tim_kiem_vao_day.jpg)
+<img width="602" height="736" alt="image" src="https://github.com/user-attachments/assets/af08186f-0d0a-40f8-8763-f9b6295b89c2" />
+
 
 ### 2.6. Validation và Xử lý lỗi
 Hệ thống sẽ hiển thị thông báo thân thiện khi người dùng nhập sai quy tắc (ví dụ: để trống mã, trùng mã, số tín chỉ không hợp lệ).
-> ![Thông báo lỗi Validation](chen_link_anh_validation_vao_day.jpg)
+<img width="596" height="733" alt="image" src="https://github.com/user-attachments/assets/40e5a082-652b-4d65-b07b-db019f9f6fac" />
 
 ---
 

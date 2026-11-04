@@ -40,8 +40,8 @@ Lab12/
 
 * Tải danh sách Lớp (`sp_Lop_GetAll`) và Môn học (`sp_MonHoc_GetAll`) ngay khi Form vừa load.
 
-> 🖼️ **\[Chèn ảnh: Giao diện khi Form vừa mở, xổ ComboBox Lớp/Môn học\]**
-> `![Data Binding ComboBox](duong_dan_anh_1.png)`
+<img width="697" height="634" alt="image" src="https://github.com/user-attachments/assets/548aeff6-02ad-4d43-a656-94437b08d035" />
+
 
 **2. Hiển thị danh sách kết quả học tập:**
 
@@ -51,8 +51,7 @@ Lab12/
 
 * Dữ liệu được Binding lên `DataGridView` thông qua `BindingSource`.
 
-> 🖼️ **\[Chèn ảnh: Giao diện sau khi bấm nút "Tải danh sách", hiển thị GridView\]**
-> `![Hiển thị danh sách](duong_dan_anh_2.png)`
+<img width="702" height="637" alt="image" src="https://github.com/user-attachments/assets/1bc2952a-ebfb-4095-a161-f79173607f32" />
 
 **3. Xác thực dữ liệu (Validation):**
 
@@ -60,8 +59,8 @@ Lab12/
 
 * Kiểm tra điểm số phải nằm trong khoảng từ `0` đến `10`. Nếu sai sẽ chặn lưu và báo lỗi.
 
-> 🖼️ **\[Chèn ảnh: Hộp thoại thông báo lỗi khi nhập điểm chữ hoặc điểm > 10\]**
-> `![Lỗi Validation](duong_dan_anh_3.png)`
+<img width="701" height="640" alt="image" src="https://github.com/user-attachments/assets/7d7fe43f-cf12-43fe-b99a-c2171eb3aaf6" />
+
 
 **4. Lưu dữ liệu an toàn với Transaction:**
 
@@ -71,8 +70,8 @@ Lab12/
 
 * Tự động **Rollback** toàn bộ thao tác nếu có bất kỳ một sinh viên nào bị lỗi dữ liệu hoặc lỗi kết nối.
 
-> 🖼️ **\[Chèn ảnh: Hộp thoại thông báo "Đã lưu thành công X dòng"\]**
-> `![Lưu Transaction thành công](duong_dan_anh_4.png)`
+<img width="697" height="635" alt="image" src="https://github.com/user-attachments/assets/9884aed6-c6a4-4056-9722-529e5550c5a8" />
+
 
 ## ⚙️ Hướng dẫn cài đặt và chạy thử
 

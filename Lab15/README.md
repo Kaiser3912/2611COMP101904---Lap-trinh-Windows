@@ -1,7 +1,7 @@
 # BÁO CÁO LAB 15: MVP, KIỂM THỬ VÀ BÀN GIAO ĐỒ ÁN
 
-**Họ và tên sinh viên:** [Điền họ tên của bạn]  
-**Mã sinh viên:** [Điền MSSV của bạn]  
+**Họ và tên sinh viên:** Kiều Gia Bảo  
+**Mã sinh viên:** 51.01.104.128
 **Môn học:** COMP1019  
 
 ---
@@ -27,35 +27,35 @@ Dự án được chia thành các thư mục sau:
 ### 3.1. Giao diện chính và Load danh sách
 Khi vừa mở Form lên, chương trình sẽ tự động load dữ liệu mẫu thông qua Repository. Form hiển thị đầy đủ 3 TextBox (Mã, Tên, Điểm) và DataGridView.
 
-![Giao diện chính - Load danh sách]([Chèn link/đường dẫn ảnh giao diện chính và lưới dữ liệu vào đây])
+<img width="797" height="565" alt="image" src="https://github.com/user-attachments/assets/645599ac-24e9-42ea-93d5-b1d471fb935f" />
 
 ### 3.2. Chức năng Thêm sinh viên (Hợp lệ)
 Nhập đầy đủ thông tin hợp lệ (Mã: SV03, Tên: Lê Văn C, Điểm: 9.0) và bấm nút Thêm. Dữ liệu mới được cập nhật ngay lên DataGridView.
 
-![Thêm sinh viên thành công]([Chèn link/đường dẫn ảnh sau khi bấm nút thêm thành công vào đây])
+<img width="799" height="568" alt="image" src="https://github.com/user-attachments/assets/8e009174-01e2-411b-a69c-5739f410409e" />
 
 ### 3.3. Chức năng Tìm kiếm
 Nhập một phần của Tên hoặc Mã sinh viên vào ô tìm kiếm và bấm nút Tìm kiếm. Lưới dữ liệu sẽ được lọc tương ứng.
 
-![Tìm kiếm sinh viên]([Chèn link/đường dẫn ảnh kết quả tìm kiếm vào đây])
+<img width="799" height="567" alt="image" src="https://github.com/user-attachments/assets/ac84d25f-66e6-4eb8-a690-51021ca7f104" />
 
 ### 3.4. Chức năng Xóa dữ liệu
 Chọn một sinh viên hoặc nhập mã sinh viên cần xóa và bấm nút Xóa. Dữ liệu sẽ biến mất khỏi DataGridView.
 
-![Xóa sinh viên]([Chèn link/đường dẫn ảnh sau khi xóa thành công vào đây])
+<img width="806" height="571" alt="image" src="https://github.com/user-attachments/assets/b731dd74-2bc4-4b90-b3a5-ec934202ad73" />
 
 ### 3.5. Kiểm tra tính hợp lệ của dữ liệu (Validation)
 **Trường hợp 1: Dữ liệu rỗng**
 Bỏ trống thông tin và bấm Thêm.
-![Lỗi dữ liệu rỗng]([Chèn link/đường dẫn ảnh thông báo lỗi rỗng vào đây])
+<img width="799" height="566" alt="image" src="https://github.com/user-attachments/assets/571db6f8-0e79-48ce-9000-481488f5b8f6" />
 
 **Trường hợp 2: Trùng mã sinh viên**
 Nhập mã sinh viên đã tồn tại (VD: SV01) và bấm Thêm.
-![Lỗi trùng mã]([Chèn link/đường dẫn ảnh thông báo lỗi trùng mã vào đây])
+<img width="799" height="564" alt="image" src="https://github.com/user-attachments/assets/9ea79a58-267e-4534-8ed8-6aa953102cb8" />
 
 **Trường hợp 3: Điểm sai kiểu dữ liệu**
 Nhập điểm bằng chữ (VD: "Chín") hoặc số ngoài khoảng 0-10 và bấm Thêm.
-![Lỗi sai kiểu điểm]([Chèn link/đường dẫn ảnh thông báo lỗi sai định dạng điểm vào đây])
+<img width="797" height="564" alt="image" src="https://github.com/user-attachments/assets/7e6295c8-ec94-4f39-9fba-2c2c8836fddf" />
 
 ---
 

@@ -33,29 +33,20 @@
 
 ## 4. Hình Ảnh Minh Họa Từng Chức Năng
 
-> **Hướng dẫn:** Để chèn ảnh, bạn hãy copy file ảnh vào cùng thư mục với file Markdown này, sau đó điền tên file ảnh vào bên trong dấu ngoặc đơn `()` ở dưới mỗi mục.
-
 ### 4.1. Giao diện khởi tạo Form
-*(Mô tả: Ảnh chụp toàn bộ giao diện chương trình khi vừa chạy lên, ComboBox đã load đủ danh sách lớp, DataGridView hiển thị danh sách sinh viên ban đầu.)*
-
-![Giao diện khởi tạo]()
+<img width="959" height="478" alt="image" src="https://github.com/user-attachments/assets/c0066f54-4299-4edb-a206-ad07f9369741" />
 
 ### 4.2. Chức năng Lọc và Xem báo cáo
-*(Mô tả: Ảnh chụp màn hình khi đã chọn một Lớp cụ thể, chọn Kết quả "Đạt" (hoặc "Không đạt"), nhập Từ khóa tìm kiếm. Lưới DataGridView lúc này chỉ hiển thị các sinh viên khớp với điều kiện tìm kiếm.)*
+<img width="955" height="482" alt="image" src="https://github.com/user-attachments/assets/8271333d-8fbe-4c70-8a5e-5c4411ad100e" />
+<img width="956" height="479" alt="image" src="https://github.com/user-attachments/assets/87ccffe4-f53c-4afa-a4ae-6139252736fc" />
 
-![Chức năng Lọc và Xem báo cáo]()
 
 ### 4.3. Chức năng Thống kê chuyên sâu
-*(Mô tả: Ảnh chụp màn hình sau khi bấm nút "Thống kê". Lưới DataGridView thay đổi hiển thị thành bảng gom nhóm gồm: Tên Lớp, Số Lượng, Số Đạt, Số Không Đạt và Điểm Trung Bình.)*
+<img width="959" height="478" alt="image" src="https://github.com/user-attachments/assets/c7a16b50-a856-4e5a-b868-cb873ed38cda" />
 
-![Chức năng Thống kê theo lớp]()
 
 ### 4.4. Chức năng Xuất file báo cáo
-*(Mô tả: Ảnh chụp màn hình hộp thoại lưu file (SaveFileDialog) đang hiện lên để chọn nơi lưu, hoặc hộp thoại MessageBox thông báo "Xuất file thành công".)*
-
-![Chức năng Xuất file báo cáo]()
+<img width="956" height="478" alt="image" src="https://github.com/user-attachments/assets/df31be4c-39ef-4f01-a78d-86fc58e042b1" />
 
 ### 4.5. Kết quả File xuất ra (CSV / TXT)
-*(Mô tả: Mở file .csv hoặc .txt vừa xuất ra bằng Notepad hoặc Excel và chụp lại nội dung bên trong để chứng minh file xuất đúng cấu trúc.)*
-
-![Nội dung file báo cáo]()
+<img width="594" height="204" alt="image" src="https://github.com/user-attachments/assets/aad858d5-e4db-4484-91b2-7f47361db98f" />
